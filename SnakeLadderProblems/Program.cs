@@ -6,8 +6,8 @@ namespace SnakeLadderProblems
     {
         static void Main(string[] args)
         {
-            UC3CheckLadder singlePlayer=new UC3CheckLadder();
-            singlePlayer.snakeLadderUC3();
+            UC4TillReachPossi singlePlayer=new UC4TillReachPossi();
+            singlePlayer.snakeLadderUC4();
         }
     }
 }
