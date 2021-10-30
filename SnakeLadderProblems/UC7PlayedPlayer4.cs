@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnakeLadderProblems
 {
-    class UC5WinPossi
+    class UC6EveryDiaRoll
     {
         public const int snakeKillValue = 1;    //constant value to provide the snake kill
         public const int ladderValue = 5;        //constant value to provide the ladder
@@ -25,7 +25,7 @@ namespace SnakeLadderProblems
             {
 
                 Console.WriteLine("Roll Die..");
-                Random random = new Random();
+                Random random = new Random();  //here use Random class 
                 int rollDiaValue = random.Next(1, 6);
 
                 if (rollDiaValue == snakeKillValue)
