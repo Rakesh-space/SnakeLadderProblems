@@ -6,7 +6,8 @@ namespace SnakeLadderProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Snake and Ladder..");
+            UC7PlayedPlayer4 singlePlayer=new UC7PlayedPlayer4();
+            singlePlayer.snakeLadderUC6();
         }
     }
 }
