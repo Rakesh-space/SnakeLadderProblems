@@ -6,8 +6,8 @@ namespace SnakeLadderProblems
     {
         static void Main(string[] args)
         {
-            UC5WinPossi singlePlayer=new UC5WinPossi();
-            singlePlayer.snakeLadderUC5();
+            UC6EveryDiaRoll singlePlayer=new UC6EveryDiaRoll();
+            singlePlayer.snakeLadderUC6();
         }
     }
 }
